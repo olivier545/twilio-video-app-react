@@ -6,9 +6,9 @@ const VideoGrant = AccessToken.VideoGrant;
 require('dotenv').config();
 
 const MAX_ALLOWED_SESSION_DURATION = 14400;
-const twilioAccountSid = process.env.TWILIO_ACCOUNT_SID;
-const twilioApiKeySID = process.env.TWILIO_API_KEY_SID;
-const twilioApiKeySecret = process.env.TWILIO_API_KEY_SECRET;
+const twilioAccountSid = "AC468878b7c76d7645e5d8d5b9194f34c1";
+const twilioApiKeySID = "SK1ad11445386d42677acc642b1d891431";
+const twilioApiKeySecret = "COdciglvDMAGBwKS8lgQPQxqu3SbkklF";
 
 app.use(express.static(path.join(__dirname, 'build')));
 
